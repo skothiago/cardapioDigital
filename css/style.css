@@ -35,7 +35,7 @@ header {
     text-align: center;
 }
 
-header p {
+header p, footer p {
     font-size: 14px;
     line-height: 16px;
     color:rgba(0, 0, 0, 0.7)
@@ -99,4 +99,9 @@ li .details {
     flex-direction: column;
     text-align: center;
     margin-left: auto;
+}
+
+footer {
+    padding: 3rem 0;
+    text-align: center;
 }
